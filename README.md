@@ -1,4 +1,4 @@
-#Important Notes
+# Important Notes
 1- The game is tested on a real TIVA C board and is verified to be working on it.\
 2- I used TeraTerm as the serial terminal to display the game, we also used control characters to reset the terminal, hide cursor, and return cursor to
 home location.\
@@ -12,7 +12,7 @@ home location.\
 5- 100 fps, as the draw task is repeated periodically every 10 ms.\
 6- Supports very fast uart communication where we set the Uart to work at 115200 baud rate.\
 7- The microcontroller works with a clock frequency of 50 MHZ.\
-#Tasks
+# Tasks
 1- UART0_HandlerTask:
 A task for handling the Uart0 receive ISR, it starts the game when ENTER is
 pressed or updates the game state when the control arrows are pressed\
