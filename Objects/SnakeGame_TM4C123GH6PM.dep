@@ -1,0 +1,230 @@
+Dependencies for Project 'SnakeGame', Target 'TM4C123GH6PM': (DO NOT MODIFY !)
+CompilerVersion: 6180000::V6.18::ARMCLANG
+F (.\FreeRTOS\queue.c)(0x61C3430A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./FreeRTOS/include -I ./FreeRTOS/portable/GCC/ARM_CM4F -I ./Includes/CMSIS -I ./Includes/TM4C123 -I ./FreeRTOS/demo_code -I ./Includes -I ./Src-I./RTE/_TM4C123GH6PM-IC:/Users/kirol/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/queue.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6252B536)
+I (FreeRTOS\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6252B536)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Includes\FreeRTOSConfig.h)(0x63D4C3DF)
+I (Includes\TM4C123\TM4C123.h)(0x530EF2F6)
+I (Includes\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (Includes\CMSIS\core_cm4.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_version.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_compiler.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_armclang.h)(0x626F9F3E)
+I (Includes\CMSIS\mpu_armv7.h)(0x626F9F3E)
+I (Includes\TM4C123\system_TM4C123.h)(0x51B6E406)
+I (FreeRTOS\include\projdefs.h)(0x61C3430A)
+I (FreeRTOS\include\portable.h)(0x61C3430A)
+I (FreeRTOS\include\deprecated_definitions.h)(0x61C3430A)
+I (FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C3430A)
+I (FreeRTOS\include\mpu_wrappers.h)(0x61C3430A)
+I (FreeRTOS\include\task.h)(0x61C3430A)
+I (FreeRTOS\include\list.h)(0x61C3430A)
+I (FreeRTOS\include\queue.h)(0x61C3430A)
+F (.\FreeRTOS\tasks.c)(0x61C3430A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./FreeRTOS/include -I ./FreeRTOS/portable/GCC/ARM_CM4F -I ./Includes/CMSIS -I ./Includes/TM4C123 -I ./FreeRTOS/demo_code -I ./Includes -I ./Src-I./RTE/_TM4C123GH6PM-IC:/Users/kirol/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/tasks.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6252B536)
+I (FreeRTOS\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6252B536)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Includes\FreeRTOSConfig.h)(0x63D4C3DF)
+I (Includes\TM4C123\TM4C123.h)(0x530EF2F6)
+I (Includes\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (Includes\CMSIS\core_cm4.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_version.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_compiler.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_armclang.h)(0x626F9F3E)
+I (Includes\CMSIS\mpu_armv7.h)(0x626F9F3E)
+I (Includes\TM4C123\system_TM4C123.h)(0x51B6E406)
+I (FreeRTOS\include\projdefs.h)(0x61C3430A)
+I (FreeRTOS\include\portable.h)(0x61C3430A)
+I (FreeRTOS\include\deprecated_definitions.h)(0x61C3430A)
+I (FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C3430A)
+I (FreeRTOS\include\mpu_wrappers.h)(0x61C3430A)
+I (FreeRTOS\include\task.h)(0x61C3430A)
+I (FreeRTOS\include\list.h)(0x61C3430A)
+I (FreeRTOS\include\timers.h)(0x61C3430A)
+I (FreeRTOS\include\stack_macros.h)(0x61C3430A)
+F (.\FreeRTOS\list.c)(0x61C3430A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./FreeRTOS/include -I ./FreeRTOS/portable/GCC/ARM_CM4F -I ./Includes/CMSIS -I ./Includes/TM4C123 -I ./FreeRTOS/demo_code -I ./Includes -I ./Src-I./RTE/_TM4C123GH6PM-IC:/Users/kirol/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/list.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (FreeRTOS\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6252B536)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Includes\FreeRTOSConfig.h)(0x63D4C3DF)
+I (Includes\TM4C123\TM4C123.h)(0x530EF2F6)
+I (Includes\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (Includes\CMSIS\core_cm4.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_version.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_compiler.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_armclang.h)(0x626F9F3E)
+I (Includes\CMSIS\mpu_armv7.h)(0x626F9F3E)
+I (Includes\TM4C123\system_TM4C123.h)(0x51B6E406)
+I (FreeRTOS\include\projdefs.h)(0x61C3430A)
+I (FreeRTOS\include\portable.h)(0x61C3430A)
+I (FreeRTOS\include\deprecated_definitions.h)(0x61C3430A)
+I (FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C3430A)
+I (FreeRTOS\include\mpu_wrappers.h)(0x61C3430A)
+I (FreeRTOS\include\list.h)(0x61C3430A)
+F (.\FreeRTOS\portable\GCC\ARM_CM4F\port.c)(0x61C3430A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./FreeRTOS/include -I ./FreeRTOS/portable/GCC/ARM_CM4F -I ./Includes/CMSIS -I ./Includes/TM4C123 -I ./FreeRTOS/demo_code -I ./Includes -I ./Src-I./RTE/_TM4C123GH6PM-IC:/Users/kirol/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/port.o -MD)
+I (FreeRTOS\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6252B536)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Includes\FreeRTOSConfig.h)(0x63D4C3DF)
+I (Includes\TM4C123\TM4C123.h)(0x530EF2F6)
+I (Includes\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (Includes\CMSIS\core_cm4.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_version.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_compiler.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_armclang.h)(0x626F9F3E)
+I (Includes\CMSIS\mpu_armv7.h)(0x626F9F3E)
+I (Includes\TM4C123\system_TM4C123.h)(0x51B6E406)
+I (FreeRTOS\include\projdefs.h)(0x61C3430A)
+I (FreeRTOS\include\portable.h)(0x61C3430A)
+I (FreeRTOS\include\deprecated_definitions.h)(0x61C3430A)
+I (FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C3430A)
+I (FreeRTOS\include\mpu_wrappers.h)(0x61C3430A)
+I (FreeRTOS\include\task.h)(0x61C3430A)
+I (FreeRTOS\include\list.h)(0x61C3430A)
+F (.\FreeRTOS\timers.c)(0x61C3430A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./FreeRTOS/include -I ./FreeRTOS/portable/GCC/ARM_CM4F -I ./Includes/CMSIS -I ./Includes/TM4C123 -I ./FreeRTOS/demo_code -I ./Includes -I ./Src-I./RTE/_TM4C123GH6PM-IC:/Users/kirol/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/timers.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (FreeRTOS\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6252B536)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Includes\FreeRTOSConfig.h)(0x63D4C3DF)
+I (Includes\TM4C123\TM4C123.h)(0x530EF2F6)
+I (Includes\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (Includes\CMSIS\core_cm4.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_version.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_compiler.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_armclang.h)(0x626F9F3E)
+I (Includes\CMSIS\mpu_armv7.h)(0x626F9F3E)
+I (Includes\TM4C123\system_TM4C123.h)(0x51B6E406)
+I (FreeRTOS\include\projdefs.h)(0x61C3430A)
+I (FreeRTOS\include\portable.h)(0x61C3430A)
+I (FreeRTOS\include\deprecated_definitions.h)(0x61C3430A)
+I (FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C3430A)
+I (FreeRTOS\include\mpu_wrappers.h)(0x61C3430A)
+I (FreeRTOS\include\task.h)(0x61C3430A)
+I (FreeRTOS\include\list.h)(0x61C3430A)
+I (FreeRTOS\include\queue.h)(0x61C3430A)
+I (FreeRTOS\include\timers.h)(0x61C3430A)
+F (.\FreeRTOS\portable\MemMang\heap_4.c)(0x61C3430A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./FreeRTOS/include -I ./FreeRTOS/portable/GCC/ARM_CM4F -I ./Includes/CMSIS -I ./Includes/TM4C123 -I ./FreeRTOS/demo_code -I ./Includes -I ./Src-I./RTE/_TM4C123GH6PM-IC:/Users/kirol/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/heap_4.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (FreeRTOS\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6252B536)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Includes\FreeRTOSConfig.h)(0x63D4C3DF)
+I (Includes\TM4C123\TM4C123.h)(0x530EF2F6)
+I (Includes\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (Includes\CMSIS\core_cm4.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_version.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_compiler.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_armclang.h)(0x626F9F3E)
+I (Includes\CMSIS\mpu_armv7.h)(0x626F9F3E)
+I (Includes\TM4C123\system_TM4C123.h)(0x51B6E406)
+I (FreeRTOS\include\projdefs.h)(0x61C3430A)
+I (FreeRTOS\include\portable.h)(0x61C3430A)
+I (FreeRTOS\include\deprecated_definitions.h)(0x61C3430A)
+I (FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C3430A)
+I (FreeRTOS\include\mpu_wrappers.h)(0x61C3430A)
+I (FreeRTOS\include\task.h)(0x61C3430A)
+I (FreeRTOS\include\list.h)(0x61C3430A)
+F (.\Src\main.c)(0x63D71899)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./FreeRTOS/include -I ./FreeRTOS/portable/GCC/ARM_CM4F -I ./Includes/CMSIS -I ./Includes/TM4C123 -I ./FreeRTOS/demo_code -I ./Includes -I ./Src-I./RTE/_TM4C123GH6PM-IC:/Users/kirol/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MD)
+I (Includes\TM4C123\TM4C123.h)(0x530EF2F6)
+I (Includes\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (Includes\CMSIS\core_cm4.h)(0x626F9F3E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Includes\CMSIS\cmsis_version.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_compiler.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_armclang.h)(0x626F9F3E)
+I (Includes\CMSIS\mpu_armv7.h)(0x626F9F3E)
+I (Includes\TM4C123\system_TM4C123.h)(0x51B6E406)
+I (FreeRTOS\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6252B536)
+I (Includes\FreeRTOSConfig.h)(0x63D4C3DF)
+I (FreeRTOS\include\projdefs.h)(0x61C3430A)
+I (FreeRTOS\include\portable.h)(0x61C3430A)
+I (FreeRTOS\include\deprecated_definitions.h)(0x61C3430A)
+I (FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C3430A)
+I (FreeRTOS\include\mpu_wrappers.h)(0x61C3430A)
+I (FreeRTOS\include\task.h)(0x61C3430A)
+I (FreeRTOS\include\list.h)(0x61C3430A)
+I (FreeRTOS\include\semphr.h)(0x61C3430A)
+I (FreeRTOS\include\queue.h)(0x61C3430A)
+I (Src\uart.h)(0x63D655C4)
+I (Src\gameTasks.h)(0x63D6ADA4)
+I (Src\game.h)(0x63D717F5)
+F (.\Src\game.c)(0x63D718F6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./FreeRTOS/include -I ./FreeRTOS/portable/GCC/ARM_CM4F -I ./Includes/CMSIS -I ./Includes/TM4C123 -I ./FreeRTOS/demo_code -I ./Includes -I ./Src-I./RTE/_TM4C123GH6PM-IC:/Users/kirol/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/game.o -MD)
+I (Src\game.h)(0x63D717F5)
+I (Includes\TM4C123\TM4C123.h)(0x530EF2F6)
+I (Includes\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (Includes\CMSIS\core_cm4.h)(0x626F9F3E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Includes\CMSIS\cmsis_version.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_compiler.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_armclang.h)(0x626F9F3E)
+I (Includes\CMSIS\mpu_armv7.h)(0x626F9F3E)
+I (Includes\TM4C123\system_TM4C123.h)(0x51B6E406)
+I (FreeRTOS\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6252B536)
+I (Includes\FreeRTOSConfig.h)(0x63D4C3DF)
+I (FreeRTOS\include\projdefs.h)(0x61C3430A)
+I (FreeRTOS\include\portable.h)(0x61C3430A)
+I (FreeRTOS\include\deprecated_definitions.h)(0x61C3430A)
+I (FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C3430A)
+I (FreeRTOS\include\mpu_wrappers.h)(0x61C3430A)
+I (FreeRTOS\include\task.h)(0x61C3430A)
+I (FreeRTOS\include\list.h)(0x61C3430A)
+I (FreeRTOS\include\semphr.h)(0x61C3430A)
+I (FreeRTOS\include\queue.h)(0x61C3430A)
+I (Src\uart.h)(0x63D655C4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+F (.\Src\uart.c)(0x63D71915)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./FreeRTOS/include -I ./FreeRTOS/portable/GCC/ARM_CM4F -I ./Includes/CMSIS -I ./Includes/TM4C123 -I ./FreeRTOS/demo_code -I ./Includes -I ./Src-I./RTE/_TM4C123GH6PM-IC:/Users/kirol/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/uart.o -MD)
+I (Src\uart.h)(0x63D655C4)
+I (Includes\TM4C123\TM4C123.h)(0x530EF2F6)
+I (Includes\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (Includes\CMSIS\core_cm4.h)(0x626F9F3E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Includes\CMSIS\cmsis_version.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_compiler.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_armclang.h)(0x626F9F3E)
+I (Includes\CMSIS\mpu_armv7.h)(0x626F9F3E)
+I (Includes\TM4C123\system_TM4C123.h)(0x51B6E406)
+F (.\Src\gameTasks.c)(0x63D7190A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./FreeRTOS/include -I ./FreeRTOS/portable/GCC/ARM_CM4F -I ./Includes/CMSIS -I ./Includes/TM4C123 -I ./FreeRTOS/demo_code -I ./Includes -I ./Src-I./RTE/_TM4C123GH6PM-IC:/Users/kirol/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gametasks.o -MD)
+I (Src\gameTasks.h)(0x63D6ADA4)
+I (FreeRTOS\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6252B536)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Includes\FreeRTOSConfig.h)(0x63D4C3DF)
+I (Includes\TM4C123\TM4C123.h)(0x530EF2F6)
+I (Includes\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (Includes\CMSIS\core_cm4.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_version.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_compiler.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_armclang.h)(0x626F9F3E)
+I (Includes\CMSIS\mpu_armv7.h)(0x626F9F3E)
+I (Includes\TM4C123\system_TM4C123.h)(0x51B6E406)
+I (FreeRTOS\include\projdefs.h)(0x61C3430A)
+I (FreeRTOS\include\portable.h)(0x61C3430A)
+I (FreeRTOS\include\deprecated_definitions.h)(0x61C3430A)
+I (FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x61C3430A)
+I (FreeRTOS\include\mpu_wrappers.h)(0x61C3430A)
+I (FreeRTOS\include\task.h)(0x61C3430A)
+I (FreeRTOS\include\list.h)(0x61C3430A)
+I (FreeRTOS\include\semphr.h)(0x61C3430A)
+I (FreeRTOS\include\queue.h)(0x61C3430A)
+I (Src\uart.h)(0x63D655C4)
+I (Src\game.h)(0x63D717F5)
+F (RTE/Device/TM4C123GH6PM/startup_TM4C123.s)(0x63D44A77)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1" -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_TM4C123GH6PM-IC:/Users/kirol/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 537" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
+F (RTE/Device/TM4C123GH6PM/system_TM4C123.c)(0x63D4D382)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./FreeRTOS/include -I ./FreeRTOS/portable/GCC/ARM_CM4F -I ./Includes/CMSIS -I ./Includes/TM4C123 -I ./FreeRTOS/demo_code -I ./Includes -I ./Src-I./RTE/_TM4C123GH6PM-IC:/Users/kirol/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Includes\TM4C123\TM4C123.h)(0x530EF2F6)
+I (Includes\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (Includes\CMSIS\core_cm4.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_version.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_compiler.h)(0x626F9F3E)
+I (Includes\CMSIS\cmsis_armclang.h)(0x626F9F3E)
+I (Includes\CMSIS\mpu_armv7.h)(0x626F9F3E)
+I (Includes\TM4C123\system_TM4C123.h)(0x51B6E406)
