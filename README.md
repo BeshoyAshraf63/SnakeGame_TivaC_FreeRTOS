@@ -1,5 +1,5 @@
 # Features the game supports:
-1- Multiple levels. Each level has a higher speed than that of the level before it.
+1- Multiple levels. Each level has a higher speed than that of the level before it.__
 2- Displaying the total score of all levels during playing and after wining or.
 losing. The score is based on the length of the snake.
 3- Displaying the elapsed time since the start of the game.
